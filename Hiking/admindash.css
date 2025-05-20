@@ -1,0 +1,133 @@
+.admindashboard {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #82928b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.admindashboard h1 {
+    margin-bottom: 30px;
+    font-size: 20pt;
+    color: #333;
+}
+
+.admindashboard table {
+    margin: 0 auto;
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.admindashboard td {
+    padding: 20px;
+    background-color: #556b5d;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admindashboard td:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.05);
+}
+
+.admindashboard a {
+    text-decoration: none;
+    color: #5bbdbb;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.admindashboard a:hover {
+    color: #005fa3;
+}
+
+.navbar{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: darkslategrey;
+    height: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 15pt;
+    color: aqua;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navtab{
+    padding-top: 5px;
+    padding-left: 450px;
+}
+
+body{
+    background-color: slategrey;
+}
+
+.insert {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #82928b;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.insert h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20pt;
+    color: #f0f0f0;
+}
+
+.insert table {
+    width: 100%;
+    border-spacing: 15px;
+}
+
+.insert td {
+    padding: 10px;
+    font-size: 14pt;
+    color: #eaeaea;
+}
+
+.insert input[type="text"],
+.insert input[type="date"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    font-size: 12pt;
+    color: #333;
+}
+
+.insert input[type="submit"],
+.insert input[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5bbdbb;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.insert input[type="submit"]:hover,
+.insert input[type="reset"]:hover {
+    background-color: #007b7b;
+}
